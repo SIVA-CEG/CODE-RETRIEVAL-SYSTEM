@@ -6,26 +6,34 @@ A smart tool that helps users search for relevant codes and descriptions based o
 
 ## 📄 Files
 
-| File Name   | Purpose |
-|-------------|---------|
-| `server.py` | Main Python file that runs the prefix-based search engine |
-| `data.txt`  | Input data file in `code|description` format |
-| `crs.cpp`   | (Optional) Legacy or alternative implementation in C++ |
-| `crs.exe`   | Executable built from `crs.cpp` |
-| `scripts.js`| (Optional) JS logic (if UI used) |
-| `CRS.zip`   | 📌 *Remove this – already extracted* |
+| File Name    | Purpose                                                                 |
+|--------------|-------------------------------------------------------------------------|
+| `server.py`  | Main Python file that runs the prefix-based search engine               |
+| `data.txt`   | Input data file in `code|description` format                             |
+| `crs.cpp`    | (Optional) C++ version of the project                                    |
+| `crs.exe`    | Executable file generated from `crs.cpp`                                 |
+| `scripts.js` | JavaScript file (included for optional frontend or demo purposes)        |
 
 ---
 
 ## 🚀 Features
 
-- Prefix-based search using trie logic
-- Reads input from `data.txt`
-- CLI output via `server.py`
+- Prefix-based search using trie-like logic
+- Reads code-description pairs from a `.txt` file
+- Suggests matching codes based on user input
+- Simple terminal-based interaction
+- Fast and efficient search operations
 
 ---
 
-## ▶️ Run Instructions
+## ▶️ How to Run
 
-```bash
-python server.py
+1. Make sure you have Python installed on your system.
+2. Double-click or run the file `server.py`.
+3. Enter a prefix when prompted.
+4. The program will display matching descriptions along with their codes.
+
+---
+
+## 📌 Example
+
