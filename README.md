@@ -36,4 +36,10 @@ A smart tool that helps users search for relevant codes and descriptions based o
 ---
 
 ## 📌 Example
+Enter Prefix for Suggestions: 
+seve
+Severe Acute Respiratory Syndrome
+Severe Dengue Fever Case
+🔑 Code:(on clicking)
+C070
 
